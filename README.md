@@ -31,7 +31,7 @@
   
        )
     
-   ### Using linear activation in output layer + from_logits=True -> to give flexibility in mathematical computations 
+   ### Using linear activation function in output layer + (from_logits=True) -> to give flexibility in mathematical computations 
 
   - Fit model
     ```
@@ -39,8 +39,24 @@
     X_train, y_train,
     epochs=200
     )
-     
+- Git weihts 
+- Visualization of model performance
+- Test training data
+- Evaluate Training
+- Test using unseen data
+- Evaluate test
 
+## IN training data 
+ - Get true prediction for 148 of 150 example
+## IN unseen data 
+ - Get true prediction for 19 of 20 example
+     
+## Conclusion of model behavior
+   you can see at layer 1 if:
+      neuron 0 = 0 and neuron 1 = 0 => reault is 0
+      neuron 0 = 1 and neuron 1 = 0 => reault is 1
+      neuron 0 = 0 and neuron 1 = 1 => reault is 2
+      neuron 0 = 1 and neuron 1 = 1 => reault is 3
 
 
 
