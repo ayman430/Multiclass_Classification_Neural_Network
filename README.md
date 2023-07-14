@@ -46,12 +46,12 @@
 - Test using unseen data
 - Evaluate test
 
-## IN training data 
+### IN training data 
  - Get true prediction for 148 of 150 example
-## IN unseen data 
+### IN unseen data 
  - Get true prediction for 19 of 20 example
      
-## Conclusion of model behavior
+### Conclusion of model behavior
   - you can see at layer 1 if:
      - neuron 0 = 0 and neuron 1 = 0 => reault is 0
      - neuron 0 = 1 and neuron 1 = 0 => reault is 1
@@ -59,8 +59,8 @@
      - neuron 0 = 1 and neuron 1 = 1 => reault is 3
 
 
-
-
+## Cost function curve if we use sigmoid function 
+<img src="https://github.com/lotaa/Predict_Car_Price/assets/99848721/06d6116a-a706-47d4-b1db-f205af21ccfb">
 
 
 
