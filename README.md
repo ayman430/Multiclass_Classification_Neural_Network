@@ -46,10 +46,10 @@
 - Test using unseen data
 - Evaluate test
 
-### IN training data 
- - Get true prediction for 148 of 150 example
-### IN unseen data 
- - Get true prediction for 19 of 20 example
+###  IN training data 
+ - Get true prediction for 98.67 % 
+###   IN unseen data 
+ - Get true prediction for 95 %  for small data 20 example 
      
 ### Conclusion of model behavior
   - you can see at layer 1 if:
